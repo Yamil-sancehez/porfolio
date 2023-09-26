@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Yamil  Sanchez">
+    <meta name="description" content="Portafolio de desarrollo web">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Iconos de bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--css-->
+    <link rel="stylesheet" href="style.css">
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="/img/favicon-4.png">
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,700&family=Montserrat:ital,wght@0,300;0,700;1,500&family=Open+Sans:ital,wght@0,300;1,400;1,800&family=Roboto:ital,wght@0,400;0,700;1,300&family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <title>Portafolio</title>
+</head>
+<body>
+    <!--barra de navegacion-->
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/img/favicon-1.png"  alt="logo de navegacion">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonios">Testimonios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#contactos">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--FIN barra de navegacion-->
+
+    <!--SECCION HERO-->
+    <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img class="hero-imagen-perfil" src="/img/favicon-2.png" alt="foto de perfil">
+            <h1>Hola, soy yamil</h1>
+            <h2>Desarrollo sitios web full stack</h2>
+        </div>
+        <div class="imagen img-fluid">
+            <img src="#" alt="">
+            <!--<img class="hero-inferior-imagen img-fluid" src="/img/imagen-programacion.jpeg" alt="Imagen de programacion">-->
+
+        </div>
+    </section>
+    <!--FIN SECCION HERO-->
+
+    <!-- Sobre mi-->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+    <div class="contenedor">
+        <h2 class="seccion-titulo "> Conoce a Yamil Sanchez</h2>
+        <p class="seccion-texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Dolores, repellendus ea ipsa tenetur officia ducimus 
+            quod aperiam id illo eum odio nam dolorem ab omnis deserunt sed at totam dignissimos.
+        </p>
+    </div>
+    </section>
+    <!--Fin Sobre mi-->
+
+    <!--Seccion experiencia-->
+    <section class="experiencia seccion-clara">
+     <div class="container text-center">
+      <div class="row">
+        <!--Desarrollo web-->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Desaroolo Web</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">HTML</span>
+            <span class="badge text-bg-primary">CSS</span>
+            <span class="badge text-bg-primary">JavaScript</span>
+            <span class="badge text-bg-primary">React</span>
+
+
+          </div>
+        </div>
+        <!--Articulos-->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Articulos</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Editar</span>
+            <span class="badge text-bg-primary">Escribir</span>
+            <span class="badge text-bg-primary">Blog</span>
+
+
+          </div>
+        </div>
+
+        <!--Estudiantes-->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Estudiante</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Tokio school</span>
+            <span class="badge text-bg-primary">Desarrollo Web</span>
+            <span class="badge text-bg-primary">python</span>
+
+
+          </div>
+        </div>
+
+
+
+      </div>
+     </div>
+    </section>
+    <!--Fin Seccion experiencia-->
+
+    <!--Proyectos-->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos de mis proyectos</h3>
+    <!--Galeria de proyectos-->
+    <div class="container text-center proyecto-contendor">
+      <div class="row">
+        <!--Proyecto 1-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="/img/R.jpg" alt="proyecto 1">
+            <div class="overlay">
+            <p>Proyecto 1</p>
+            <div class="iconos-contenedor">
+            <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="https://learning.tokioschool.com/my/"target="_blank" rel="noopener noreferrer" >
+              <i class="bi bi-laptop"></i>
+            </a>
+            </div>
+            </div>
+          </div>
+        </div>
+        <!--Fin proyecto 1-->
+
+        <!--Proyecto 2-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="/img/2.jpg" alt="proyecto 2">
+            <div class="overlay">
+            <p>Proyecto 2</p>
+            <div class="iconos-contenedor">
+            <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="https://learning.tokioschool.com/my/"target="_blank" rel="noopener noreferrer" >
+              <i class="bi bi-laptop"></i>
+            </a>
+            </div>
+            </div>
+          </div>
+        </div>
+        <!--Fin proyecto 2-->
+        <!--Proyecto 3-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="/img/3.jpg" alt="proyecto 3">
+            <div class="overlay">
+            <p>Proyecto 3</p>
+            <div class="iconos-contenedor">
+            <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="https://learning.tokioschool.com/my/"target="_blank" rel="noopener noreferrer" >
+              <i class="bi bi-laptop"></i>
+            </a>
+            </div>
+            </div>
+          </div>
+        </div>
+        <!--Fin proyecto 3-->
+        <!--Proyecto 4-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="/img/4.jpg" alt="proyecto 4">
+            <div class="overlay">
+            <p>Proyecto 4</p>
+            <div class="iconos-contenedor">
+            <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="https://learning.tokioschool.com/my/"target="_blank" rel="noopener noreferrer" >
+              <i class="bi bi-laptop"></i>
+            </a>
+            </div>
+            </div>
+          </div>
+        </div>
+        <!--Fin proyecto 4-->
+        <!--Proyecto 5-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="/img/5.jpg" alt="proyecto 5">
+            <div class="overlay">
+            <p>Proyecto 5</p>
+            <div class="iconos-contenedor">
+            <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="https://learning.tokioschool.com/my/"target="_blank" rel="noopener noreferrer" >
+              <i class="bi bi-laptop"></i>
+            </a>
+            </div>
+            </div>
+          </div>
+        </div>
+        <!--Fin proyecto 5-->
+        <!--Proyecto 6-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="/img/6.jpg" alt="proyecto 6">
+            <div class="overlay">
+            <p>Proyecto 6</p>
+            <div class="iconos-contenedor">
+            <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="https://learning.tokioschool.com/my/"target="_blank" rel="noopener noreferrer" >
+              <i class="bi bi-laptop"></i>
+            </a>
+            </div>
+            </div>
+          </div>
+        </div>
+        <!--Fin proyecto 6-->
+      </div>
+    </div>
+    <a href="https://www.google.es/" target="_blank" rel="noopener noreferrer">
+    <button type="button" class="btn btn-info">
+      Ver mas proyectos
+      <i class="bi bi-arrow-right-circle-fill"></i>
+    </button>
+    </a>
+  </section>
+    <!--Fin -Proyectos-->
+
+    <!--Articulos-->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Articulos</h2>
+      <div class="card">
+        <div class="card-header">
+          Mas recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.google.es/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Programación Front-End: HTML5, CSS3 y JavaScript</li>
+          </a>
+          <a href="https://www.google.es/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Programación Front-End: HTML5, CSS3 y JavaScript</li>
+          </a>
+          <a href="https://www.google.es/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Programación Front-End: HTML5, CSS3 y JavaScript</li>
+          </a>
+          <a href="https://www.google.es/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Programación Front-End: HTML5, CSS3 y JavaScript</li>
+          </a>
+          <a href="https://www.google.es/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Programación Front-End: HTML5, CSS3 y JavaScript</li>
+          </a>
+          <a href="https://www.google.es/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Programación Front-End: HTML5, CSS3 y JavaScript</li>
+          </a>
+           </ul>
+      </div>
+      <a href="https://www.google.es/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver mas articulos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+        </a>
+    </section>
+    <!--Fin - Articulos--> 
+
+  <!--testimonios-->
+<section id="testimonios" class="testimonios seccion-clara">
+  <h2 class="seccion-titulo">Testimonios</h2>
+  <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+  <!--carrusel-->
+  <div id="testimonios-carrusel" class="carousel carousel-dark slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+    <div class="container">
+      <img class="testimonio-imagen rounded-circle" src="/img/testimonio-4.jpg" alt="Imagen cliente">
+      <p class="testimonio-texto">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim saepe quod praesentium? Ad laudantium pariatur facilis expedita consectetur, molestias laborum eaque nobis unde fugiat, nam iusto. Totam distinctio quibusdam eius!
+      </p>
+      <div class="testimonio-info">
+        <p class="cliente">Tokio</p>
+        <p class="cargo">Gerente de proyecto</p>
+      </div>
+    </div>
+
+
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <img class="testimonio-imagen rounded-circle" src="/img/testimonio-2.png" alt="Imagen cliente">
+          <p class="testimonio-texto">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim saepe quod praesentium? Ad laudantium pariatur facilis expedita consectetur, molestias laborum eaque nobis unde fugiat, nam iusto. Totam distinctio quibusdam eius!
+          </p>
+          <div class="testimonio-info">
+            <p class="cliente">Tokio</p>
+            <p class="cargo">Gerente de proyecto</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <img class="testimonio-imagen rounded-circle" src="/img/testimonio-3.jpg" alt="Imagen cliente">
+          <p class="testimonio-texto">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim saepe quod praesentium? Ad laudantium pariatur facilis expedita consectetur, molestias laborum eaque nobis unde fugiat, nam iusto. Totam distinctio quibusdam eius!
+          </p>
+          <div class="testimonio-info">
+            <p class="cliente">Tokio</p>
+            <p class="cargo">Gerente de proyecto</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
+</section>
+ <!--Fin de testimonios-->
+
+ <!--contacto-->
+ <section id="contactos" class="contacto seccion-oscura">
+  <div class="container">
+    <div class="container text-center rectangulo d-flex justify-content-evenly">
+      <div class="row">
+        <div class="col-12 col-md-4 seccion-titulo">
+          ¡Hablemos!
+        </div>
+        <div class="col-12 col-md-4 descripcion">
+        Contactame para iniciar tu proyecto de desarrollo web
+        </div>
+        <div class="col-12 col-md-4">
+        <a href="mailto:tokioschool@micorreo.com">
+          <button class="button">
+          Contacto
+          <i class="bi bi-envelope-at"></i>
+          </button>
+        </a>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+<!--Fin de contacto-->
+
+
+    <!-- footer-->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-logo" src="/img/favicon-4.png" alt="Imagen favicon">
+      
+    
+    <p class="footer-texto text-center">
+    Aprendo y creo todos los dias 
+    <br>Creemos un proyecto juntos
+    </p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+    <a href="https://www.google.es/" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-twitter"></i>
+    </a>
+    <a href="https://www.google.es/" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-github"></i>
+    </a>
+    <a href="https://www.google.es/" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-linkedin"></i>
+    </a>
+    <a href="https://www.google.es/" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-instagram"></i>
+    </a>
+    <a href="mailto:tokioschool@micorreo.com" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-envelope"></i>
+    </a>
+  
+  </div>
+  <div class="derecho-de-autor"> Creado por Yamil Sanchez &#169;</div>
+    </footer>
+    <!--Fin de footer-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
